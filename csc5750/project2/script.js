@@ -178,7 +178,6 @@ function Win() {
       )
     ) {
       shuffle();
-      clearInterval(timer);
       totalMoves = 0;
       seconds = 0;
       document.getElementById("totalMoves").innerText = totalMoves;
