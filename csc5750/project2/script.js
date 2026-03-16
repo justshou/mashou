@@ -174,7 +174,7 @@ function Win() {
           totalMoves +
           " moves, and took " +
           seconds +
-          " seconds!",
+          " seconds! To play again, click OK.",
       )
     ) {
       shuffle();
