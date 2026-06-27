@@ -1,6 +1,9 @@
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center px-4">
+    <div
+      id="home"
+      className="flex flex-col min-h-screen items-center justify-center px-4"
+    >
       <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">
         <h1>Anthony Mashou</h1>
       </div>

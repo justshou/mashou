@@ -38,7 +38,7 @@ const programmingLanguages = [
 
 export default function Skills() {
   return (
-    <div className=" flex flex-col h-screen p-16">
+    <div id="skills" className="flex flex-col min-h-screen px-16 scroll-mt-24">
       <div className="text-2xl">
         <h1 className="text-3xl font-bold text-neutral-100 pb-4">Skills</h1>
         <h2 className="text-lg text-neutral-400">Web Technologies</h2>
