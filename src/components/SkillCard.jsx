@@ -1,7 +1,7 @@
 export default function SkillCard({ image, name }) {
   return (
     <div className="bg-neutral-900 border border-neutral-800 rounded-2xl shadow-2xl hover:scale-105 ease-in-out duration-300">
-      <div className="font-sans-sora grid grid-cols-2 gap-4 justify-center items-center p-6">
+      <div className="grid grid-cols-2 gap-4 justify-center items-center p-6">
         <img
           src={image}
           alt={name}

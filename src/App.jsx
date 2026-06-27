@@ -5,7 +5,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-neutral-950 text-neutral-100">
+    <div className="bg-neutral-950 text-neutral-100 font-sans-sora">
       <Navbar />
       <Home />
       <Skills />
