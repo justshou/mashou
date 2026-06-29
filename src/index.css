@@ -3,3 +3,10 @@
   --font-sans-roboto: "Roboto";
   --font-sans-sora: "Sora";
 }
+
+@layer base {
+  html,
+  body {
+    @apply bg-neutral-950 overscroll-y-none;
+  }
+}
