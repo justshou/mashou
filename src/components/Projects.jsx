@@ -12,7 +12,7 @@ export default function Projects() {
           <ProjectCard
             name="Drowsy Detection"
             image={tensorflow}
-            url="https://github.com/justshou/Drowsy-Driver-Detection"
+            url="https://github.com/justshou/Drowsy-Driving-Detection"
           />
           <ProjectCard
             name="Todo App"
