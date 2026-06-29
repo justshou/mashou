@@ -4,14 +4,12 @@ export default function Navbar() {
 
   const links = [
     { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
   ];
 
   return (
-    <nav className="text-2xl backdrop-blur-md bg-neutral-900/90 sticky top-0 shadow-xl p-4 w-full border-b border-neutral-800 justify-between mx-auto z-50">
+    <nav className="text-2xl backdrop-blur-md bg-neutral-900/90 fixed top-0 shadow-xl p-4 w-full border-b border-neutral-800 justify-between mx-auto z-50">
       <div className="flex justify-center">
         {links.map((link) => (
           <a key={link.name} className={buttonStyle} href={link.href}>
