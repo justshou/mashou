@@ -6,6 +6,7 @@ export default function SkillCard({ image, name }) {
           src={image}
           alt={name}
           className="w-12 h-12 rounded-xl object-cover"
+          loading="lazy"
         />
         <h1 className="text-lg text-neutral-100 font-semibold">{name}</h1>
       </div>

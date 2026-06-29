@@ -4,10 +4,10 @@ export default function Home() {
       id="home"
       className="flex flex-col min-h-screen items-center justify-center px-4"
     >
-      <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">
+      <div className="text-lg sm:text-xl md:text-4xl lg:text-5xl font-extrabold text-white mb-2">
         <h1>Anthony Mashou</h1>
       </div>
-      <div className=" text-xl md:text-3xl font-medium text-indigo-600">
+      <div className="text-md sm:text-lg md:text-2xl lg:text-3xl font-medium text-indigo-600">
         <p>Developer</p>
       </div>
       <div className="pt-6 ">
@@ -15,7 +15,7 @@ export default function Home() {
           href="https://github.com/justshou"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-indigo-400 hover:text-indigo-300"
+          className="text-sm sm:text-md md:text-lg lg:text-xl text-indigo-400 hover:text-indigo-300"
         >
           GitHub
         </a>
@@ -23,7 +23,7 @@ export default function Home() {
           href="https://linkedin.com/in/anthonymashou"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-indigo-400 hover:text-indigo-300 ml-4"
+          className="text-sm sm:text-md md:text-lg lg:text-xl text-indigo-400 hover:text-indigo-300 ml-4"
         >
           LinkedIn
         </a>
