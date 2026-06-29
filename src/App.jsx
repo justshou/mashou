@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
-    <div className="bg-neutral-950 text-neutral-100 font-sans-sora overscroll-none">
+    <div className="bg-neutral-950 text-neutral-100 font-sans-sora">
       <Navbar />
       <Home />
       <Skills />

@@ -7,6 +7,6 @@
 @layer base {
   html,
   body {
-    @apply bg-neutral-950 overscroll-y-none;
+    @apply bg-neutral-950;
   }
 }
