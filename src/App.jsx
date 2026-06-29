@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Skills />
       <Projects />
       <Footer />
+      <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
