@@ -4,7 +4,7 @@ export default function Home() {
       id="home"
       className="flex flex-col min-h-screen items-center justify-center px-4"
     >
-      <div className="text-lg sm:text-xl md:text-4xl lg:text-5xl font-extrabold text-white mb-2">
+      <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-2">
         <h1>Anthony Mashou</h1>
       </div>
       <div className="text-md sm:text-lg md:text-2xl lg:text-3xl font-medium text-indigo-600">
