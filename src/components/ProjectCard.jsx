@@ -10,11 +10,12 @@ export default function ProjectCard({ image, name, url }) {
         />
       </div>
       <div className="flex flex-col gap-4 justify-center items-center p-6">
-        <h1 className="text-2xl text-neutral-100 font-semibold">{name}</h1>
+        <h3 className="text-2xl text-neutral-100 font-semibold">{name}</h3>
         <a
           href={url}
           className="text-lg text-blue-400 hover:text-blue-300 font-semibold transition-colors duration-300"
           target="_blank"
+          rel="noopener noreferrer"
         >
           View on GitHub
         </a>
